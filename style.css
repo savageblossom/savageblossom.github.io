@@ -1,0 +1,222 @@
+@charset "UTF-8";
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.container {
+  width: 818px;
+  margin: 0 auto;
+}
+
+.black_text {
+  color: #3c3c3c;
+}
+
+.white_text {
+  color: white;
+}
+
+.global_par {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.lesser_font {
+  font-size: 14px;
+}
+
+.global_description {
+  margin-top: 53px;
+  line-height: 24px;
+}
+
+.face {
+  height: 1074px;
+  background: url("img/face_bg.png");
+  background-position: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.face__logo {
+  width: 100%;
+  margin-top: 286px;
+  display: inline-block;
+}
+
+.face__logo__main {
+  margin-top: 82px;
+  font-size: 54px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  line-height: 62px;
+}
+
+.face__logo__description {
+  margin-top: 32px;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.face__bottom_mouse {
+  margin-top: 236px;
+}
+
+.about_us {
+  height: 630px;
+  background: url("img/black_border_about_us.png") no-repeat, #fff;
+  background-position: center;
+  display: flex;
+}
+
+.about_us__title {
+  margin-top: 140px;
+}
+
+.services {
+  display: flex;
+  height: 488px;
+  background: url("img/white_border_services.png") no-repeat 0 128px, url("img/services_bg.png") no-repeat;
+  background-position-x: center;
+}
+
+.serviсes__title {
+  margin-top: 111px;
+}
+
+.serviсes__description {
+  margin-top: 52px;
+  line-height: 26px;
+}
+
+.what_we_do {
+  display: flex;
+  height: 1415px;
+  background: url("img/black_border_what_we_do.png") no-repeat, #fff;
+  background-position: center;
+}
+
+.what_we_do__title {
+  margin-top: 100px;
+}
+
+.what_we_do__description {
+  margin-top: 27px;
+  line-height: 26px;
+}
+
+.what_we_do__block-design {
+  margin-top: 110px;
+}
+
+.what_we_do__sub_logo__description {
+  margin-top: 36px;
+}
+
+.what_we_do__block-development {
+  margin-top: 103px;
+}
+
+.what_we_do__block-product_management {
+  margin-top: 91px;
+}
+
+.what_we_do__block-product_management > .what_we_do__description {
+  margin-top: 40px;
+}
+
+.our_works {
+  height: 482px;
+}
+.our_works h2 {
+  position: absolute;
+  bottom: 42px;
+  margin-left: 44px;
+  letter-spacing: 6px;
+  font-size: 34px;
+}
+
+.our_works__row__item {
+  width: 802px;
+  height: 237px;
+  margin-right: 10px;
+}
+
+.contact_us {
+  height: 470px;
+  background: url("img/black_border_contact_us.png") no-repeat 0 140px, #fff;
+  background-position-x: center;
+  display: flex;
+}
+.contact_us h1 {
+  font-size: 30px;
+}
+
+.contact_us__title {
+  margin-top: 130px;
+}
+
+.contact_us__button {
+  margin-top: 38px;
+  width: 395px;
+  height: 58px;
+  background: #3c3c3c;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 3px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s background;
+}
+.contact_us__button:hover {
+  background: #595959;
+}
+
+.contact_us__description {
+  margin-top: 47px;
+  line-height: 26px;
+}
+
+.footer {
+  height: 110px;
+  display: flex;
+}
+
+.footer__content {
+  margin-top: 24px;
+}
+
+.footer__logo {
+  display: inline-block;
+  position: relative;
+  right: 24px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  display: inline-block;
+  position: relative;
+  left: 8px;
+  bottom: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */

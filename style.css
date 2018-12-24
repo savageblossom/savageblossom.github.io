@@ -21,6 +21,8 @@ h2 {
 .container {
   width: 818px;
   margin: 0 auto;
+  padding: 0 130px;
+  box-sizing: border-box;
 }
 
 .black_text {
@@ -51,10 +53,10 @@ h2 {
   background-position: center;
   text-transform: uppercase;
   text-align: center;
+  display: flex;
 }
 
 .face__logo {
-  width: 100%;
   margin-top: 286px;
   display: inline-block;
 }
@@ -154,8 +156,6 @@ h2 {
 }
 
 .our_works__row__item {
-  width: 802px;
-  height: 237px;
   margin-right: 10px;
 }
 
@@ -217,6 +217,69 @@ h2 {
   position: relative;
   left: 8px;
   bottom: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .global_title {
+    margin-top: 50px;
+  }
+
+  .container {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .face {
+    height: 800px;
+    background: url("img/face_bg.png") 728px 0;
+    background-position-y: center;
+  }
+
+  .face__logo {
+    margin-top: 50px;
+  }
+
+  .face__logo__description {
+    margin-top: 90px;
+  }
+
+  .face__bottom_mouse {
+    margin-top: 60px;
+  }
+
+  .about_us {
+    height: 410px;
+  }
+
+  .about_us, .what_we_do, .contact_us {
+    background: #fff;
+  }
+
+  .services {
+    height: 380px;
+  }
+
+  .services {
+    background: url("img/services_bg.png") no-repeat;
+    background-position: center;
+  }
+
+  .what_we_do {
+    height: 1150px;
+  }
+
+  .what_we_do__block-design, .what_we_do__block-development, .what_we_do__block-product_management {
+    margin-top: 50px;
+  }
+
+  .our_works {
+    width: 100%;
+    height: 482px;
+  }
+
+  .contact_us {
+    height: 390px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
